@@ -1,7 +1,7 @@
 {
-    "buildCommand": "cd jszx-web && npm install && npm run build",
+    "version": 2,
     "outputDirectory": "jszx-web/.next",
-    "rewrites": [
-      { "source": "/(.*)", "destination": "/jszx-web/$1" }
-    ]
-  }
+    "buildCommand": "cd jszx-web && npm install && npm run build",
+    "installCommand": "cd jszx-web && npm install",
+    "framework": "nextjs"
+}
